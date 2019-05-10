@@ -1,89 +1,295 @@
-* {
-  max-width: 700px;
-  margin: auto;
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+
+html {
+	height: 100%;
+	width: 100%;
 }
-
-
-/*body {
-    min-width: 500px;
-}*/
-
-div {
-  border-radius: 5px;
+body {
+	font-family: Source Sans Pro;
+	margin: 0 auto;
+	padding: 0 auto;
+	background: url(http://site-blogmanager.com/cv/2/images/background.png);
+	color: #666663;
+	font-size: 13px;
 }
-
 #header {
-  height: 40px;
-  width: 100%;
-  background-color: #ffcccc;
-  position: fixed;
-  z-index: 1;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	padding-bottom: 15px;
 }
-
-#title {
-  margin-left: 3%;
+.logo {
+	background-color: white;
+	padding: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: 3px 3px 2px 0 #aaa;
+	box-shadow: 3px 3px 2px 0 #aaa;
+	float: left;
+	margin-right: 45px;
 }
-
-#footer {
-  height: 50px;
-  width: 100%;
-  background-color: #ffcccc;
-  clear: both;
-  position: relative;
+.titre_header {
+	font-family: Pacifico;
+	font-size: 80px;
+	color: #002D40;
+	text-shadow: 1px 1px 1px white;
 }
-
-.left {
-  height: 1000px;
-  width: 45px;
-  background-color: #e0eeee;
-  float: left;
-  position: fixed;
+.slogan_header {
+	color: #03638B;
+	font-size: 22px;
+	text-shadow: 1px 1px 1px white;
+	float: right;
+	margin-top: -20px;
+	margin-right: 200px;
 }
-
-.right {
-  height: 1000px;
-  width: 45px;
-  background-color: #e0eeee;
-  float: right;
-  position: inherit;
+nav {
+	border-top: 1px solid #002D40;
+	border-bottom: 1px solid #002D40;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 45px;
+	font-size: 17px;
 }
-
-.stuff {
-  display: inline-block;
-  margin-top: 6px;
-  margin-left: 55px;
-  width: 75%;
-  height: 1000px;
+nav > ul {
+	list-style: none;
+	text-shadow: 1px 1px 1px white;
+	margin-left: 80px;
 }
-
-p,
-li {
-  font-family: 'Cormorant Garamond';
+nav > ul > li {
+	float: left;
+	padding-right: 20px;
+	margin-top: -7px;
 }
-
-.head {
-  font-size: 20px;
+ul {
+	list-style: none;
 }
-
-#name {
-  font-family: Sacramento;
-  float: right;
-  margin-top: 10px;
-  margin-right: 4%;
+ul > li {
+	float: left;
 }
-
+.img_menu {
+	vertical-align: top;
+	margin-right: 10px;
+}
+.img_titre {
+	vertical-align: middle;
+	margin-right: 12px;
+	margin-top: -5px;
+}
+nav > ul > li > a {
+	vertical-align: middle;
+}
 a {
-  color: black;
-  text-decoration: none;
+	color: #002D40;
+	text-decoration: none;
 }
-
-@media only screen and (max-width: 430px) {
-  .left,
-  .right {
-    display: none;
-  }
-  .stuff {
-    width: 100%;
-    margin-left: 10px;
-  }
+a:hover {
+	color: #002D40;
+	text-decoration: none;
+}
+#content {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.titre {
+	font-family: Pacifico;
+	font-size: 30px;
+	color: #002D40;
+	text-shadow: 1px 1px 1px white;
+	margin-top: 20px;
+	font-weight: normal;
+}
+#competence {
+	margin-top: 20px;
+	border-bottom: 1px solid #9A9A9A;
+	height: 255px;
+}
+.ul_comp{
+	margin-left: -40px;
+	margin-top: -15px;
+	font-size: 17px;
+}
+.comp{
+	color: #002D40;
+	text-shadow: 1px 1px 1px white;
+	font-weight: bold;
+	margin-right: 50px;
+	margin-bottom: 12px;
+}
+.img_competence {
+	vertical-align: top;
+	margin-right: 15px;
+	margin-top: 5px;
+}
+.niveau_5 {
+	background-image: url(http://site-blogmanager.com/cv/2/images/competences/niveau.png);
+	background-position: -150px 0px;
+	width: 83px;
+	height: 15px;
+	overflow: hidden;
+	margin-left: 45px;
+	margin-top: -13px;
+}
+.niveau_4 {
+	background-image: url(http://site-blogmanager.com/cv/2/images/competences/niveau.png);
+	background-position: -166px 219px;
+	width: 83px;
+	height: 15px;
+	overflow: hidden;
+	margin-left: 45px;
+	margin-top: -13px;
+}
+.niveau_3 {
+	background-image: url(http://site-blogmanager.com/cv/2/images/competences/niveau.png);
+	background-position: -166px 203px;
+	width: 83px;
+	height: 15px;
+	overflow: hidden;
+	margin-left: 45px;
+	margin-top: -13px;
+}
+.niveau_2 {
+	background-image: url(http://site-blogmanager.com/cv/2/images/competences/niveau.png);
+	background-position: -166px 109px;
+	width: 83px;
+	height: 15px;
+	overflow: hidden;
+	margin-left: 45px;
+	margin-top: -13px;
+}
+.niveau_1 {
+	background-image: url(http://site-blogmanager.com/cv/2/images/competences/niveau.png);
+	background-position: -166px 93px;
+	width: 83px;
+	height: 15px;
+	overflow: hidden;
+	margin-left: 45px;
+	margin-top: -13px;
+}
+#experience {
+	border-top: 1px solid #FFFFFF;
+	border-bottom: 1px solid #9A9A9A;
+}
+.sous_titre {
+	text-shadow: 1px 1px 1px white;
+	color: #002D40;
+	font-size: 17px;
+}
+#seton {
+	margin-top: -15px;
+	margin-bottom: 18px;
+}
+#blanche_porte {
+	margin-bottom: 18px;
+}
+#mine_a {
+	margin-bottom: 35px;
+}
+.img_experience {
+	float: left;
+	margin-right: 30px;
+}
+#formation {
+	border-top: 1px solid #FFFFFF;
+	border-bottom: 1px solid #9A9A9A;
+	height: 230px;
+}
+#polytechnique {
+	margin-top: -15px;
+}
+#baccalaureat {
+	margin-top: 15px;
+}
+#interet {
+	border-top: 1px solid #FFFFFF;
+	border-bottom: 1px solid #9A9A9A;
+	height: 190px;
+}
+.img_interet {
+	vertical-align: top;
+	margin-right: 12px;
+}
+.ul_interet {
+	margin-left: -40px;
+	margin-top: -15px;
+	width: 800px;
+}
+.ul_interet > li {
+	width: 265px;
+	height: 70px;
+}
+.ul_interet > li > p {
+	margin-top: -5px;
+	margin-left: 45px;
+	max-width: 170px;
+}
+#contact {
+	border-top: 1px solid #FFFFFF;
+}
+form {
+	margin-top: -25px;
+}
+input[type="text"] {
+	background: transparent;
+	border: 1px solid #002D40;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-box-shadow: inset 0 3px 1px 0 #696969;
+	box-shadow: inset 0 3px 1px 0 #696969;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	width: 300px;
+	margin-bottom: 5px;
+}
+input[type="mail"] {
+	background: transparent;
+	border: 1px solid #002D40;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-box-shadow: inset 0 3px 1px 0 #696969;
+	box-shadow: inset 0 3px 1px 0 #696969;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	width: 300px;
+	margin-bottom: 8px;
+}
+input[type="submit"] {
+	background: url(http://site-blogmanager.com/cv/2/images/enveloppe.png) left no-repeat;
+	font-family: Pacifico;
+	color: white;
+	float: right;
+	background-color: #002D40;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	border: double #2A4F5F;
+	margin-top: 30px;
+	width: 85px;
+}
+input[type="submit"]:hover {
+	background-color: #00202C;
+}
+input[type="submit"]:active {
+	background-color: #264C5D;
+}
+textarea {
+	background: transparent;
+	border: 1px solid #002D40;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-box-shadow: inset 0 3px 1px 0 #696969;
+	box-shadow: inset 0 3px 1px 0 #696969;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	width: 300px;
+	height: 100px;
+}
+.iframe {
+	border: 1px solid #999999;
+	margin-top: 10px;
+}
+.voir {
+	margin-left: 135px; margin-top: -5px;
 }

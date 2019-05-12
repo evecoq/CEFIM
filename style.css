@@ -4,6 +4,8 @@ body{
 
 .pro {
 	margin: auto;
+	max-width: 100%;
+	height: auto;
 }
 
 .rectangle {

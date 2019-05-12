@@ -16,8 +16,8 @@ img {
 .rectangle {
 	width: 1200px;
 	height: 400px;
-	border-radiu
-	bff;
+	border-radius: 10px;
+	Color: #f8f2ff;
 	margin: 100px auto 0;
 }
 
@@ -25,5 +25,6 @@ img {
     	border-color: #661725;
     	border-width: 5px;
     	border-style: solid;
+	border-radius: 50px;
 }
  

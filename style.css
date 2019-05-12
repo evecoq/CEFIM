@@ -1,5 +1,8 @@
 body{
-   background-image: url("89196.jpg");
+	background-image: url("89196.jpg");
+	background-position: center;
+	widht: 110%;
+	hight: 100%;
 }
 
 img {

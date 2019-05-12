@@ -6,9 +6,9 @@ body{
 	margin: auto;
 }
 
-#square {
-	width: 100px;
-	height: 100px;
+.rectangle {
+	width: 200px;
+	height: 500px;
 	background: #f9fbff;
 }
  

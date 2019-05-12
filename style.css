@@ -1,7 +1,10 @@
 body{
    background-image: url("89196.jpg");
 }
-p {
- color: red;
+
+#square {
+	width: 100px;
+	height: 100px;
+	background: #f9fbff;
 }
  

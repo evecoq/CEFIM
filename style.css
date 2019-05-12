@@ -2,6 +2,10 @@ body{
    background-image: url("89196.jpg");
 }
 
+.photo {
+	margin: auto;
+}
+
 #square {
 	width: 100px;
 	height: 100px;

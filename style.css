@@ -1,7 +1,15 @@
 body{
 	background-image: url("89196.jpg");
 	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-item: center;
 }
+
+.page {
+	width: 1200px;
+}
+	
 
 img {
 	max-width: 100%;
@@ -27,4 +35,7 @@ img {
     	border-style: solid;
 	border-radius: 100px;
 }
+
+.name {
+	
  

@@ -41,7 +41,33 @@ img {
 	height: 300px;
 	border-radius: 10px;
 	background-color: #f8f2ff;
-	margin: 500px auto 0;
+	margin: 100px auto 0;
+}
+
+.experience-rectangle {
+	width: 800px;
+	height: 400px;
+	border-radius: 10px;
+	background-color: #f8f2ff;
+	margin: 100px auto 0;
+}
+
+.hobby-rectangle {
+	width: 600px;
+	height: 200px;
+	border-radius: 10px;
+	background-color: #f8f2ff;
+	margin: 100px auto 0;
+}
+	
+.links-rectangle {
+	width: 700px;
+	height: 200px;
+	border-radius: 10px;
+	background-color: #f8f2ff;
+	margin: 100px auto 0;
+}
+
 	
 	
  

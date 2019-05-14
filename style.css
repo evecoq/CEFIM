@@ -19,6 +19,7 @@ img {
 .photo {
 	width: fit-content;
     	margin: auto;
+	justify-content: center;
 }
 
 .infophoto-rectangle {

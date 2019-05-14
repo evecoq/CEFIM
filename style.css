@@ -21,7 +21,7 @@ img {
     	margin: auto;
 }
 
-.infophoto rectangle {
+.infophoto-rectangle {
 	width: 1000px;
 	height: 300px;
 	border-radius: 10px;
@@ -36,6 +36,12 @@ img {
 	border-radius: 100px;
 }
 
-.name {
+.education-rectangle {
+	width: 800px;
+	height: 300px;
+	border-radius: 10px;
+	background-color: #f8f2ff;
+	margin: 500px auto 0;
+	
 	
  

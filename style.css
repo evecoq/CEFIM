@@ -8,6 +8,7 @@ body{
 
 .page {
 	width: 1000px;
+	align-content: space-around;
 }
 	
 
